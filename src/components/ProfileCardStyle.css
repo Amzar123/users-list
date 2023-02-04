@@ -1,0 +1,55 @@
+.profile-card{
+    width: 60%;
+    height: 100px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin: 1rem;
+    box-shadow: 2px 2px 4px grey;
+    padding: 20px;
+}
+
+.profile-card:hover{
+    /* background-color: grey; */
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+.flex-item{
+    margin-left: 20px;
+}
+
+.button-delete{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    width: 70px;
+    height: 30px;
+}
+
+.button-update{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    width: 70px;
+    height: 30px;
+}
+
+.button-delete:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.button-update:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
